@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Chart.module.css';
+import styles from './FootPrint.module.css';
 import tylerUrl from './tylerGraduationHeadshot-min.png';
 
 export default function Chart() {

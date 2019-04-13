@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Chart from './components/chart/Chart';
+import Chart from './components/chart/Footprint';
 
 class App extends Component {
   render() {
