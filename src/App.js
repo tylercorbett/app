@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Form from './components/form/Form';
+import Footprint from './components/chart/Footprint';
 
 class App extends Component {
   render() {
     return (
-      <Form/>
+      <Footprint/>
     );
   }
 }
