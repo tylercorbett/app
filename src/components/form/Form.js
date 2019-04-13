@@ -6,7 +6,7 @@ export default function Form() {
        <div className={styles.all}>
         <div className={styles.inputOption}>
             <div className={styles.header}>
-                <span className={styles.icon} className={styles.icon}>
+                <span className={styles.icon}>
                     <i class="fas fa-trash"></i>
                 </span>
                 <h3 className={styles.h3}>Garbage</h3>
@@ -23,7 +23,7 @@ export default function Form() {
         </div>
         <div className={styles.inputOption}>
             <div className={styles.header}>
-                <span className={styles.icon} className={styles.icon}>
+                <span className={styles.icon}>
                     <i class="fas fa-recycle"></i>
                 </span>
                 <h3 className={styles.h3}>Recycling</h3>
@@ -40,7 +40,7 @@ export default function Form() {
         </div>
         <div className={styles.inputOption}>
             <div className={styles.header}>
-                <span className={styles.icon} className={styles.icon}>
+                <span className={styles.icon}>
                     <i class="fas fa-wine-bottle"></i>
                 </span>
                 <h3 className={styles.h3}>Glass Recycling</h3>
@@ -57,7 +57,7 @@ export default function Form() {
         </div>
         <div className={styles.inputOption}>
             <div className={styles.header}>
-                <span className={styles.icon} className={styles.icon}>
+                <span className={styles.icon}>
                     <i class="fas fa-apple-alt"></i>
                 </span>
                 <h3 className={styles.h3}>Yard Waste</h3>
@@ -73,7 +73,7 @@ export default function Form() {
             </div>
         </div>
         <div className={styles.buttonContainer}>
-            <button className={styles.submit}>Submit</button>
+            <a className={styles.link} href='https://github.com/tylercorbett'><button className={styles.submit}>Submit</button></a>
         </div>
        </div>
     )

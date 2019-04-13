@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Chart from './components/chart/Footprint';
+import Form from './components/form/Form';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Chart/>
-      </div>
+      <Form/>
     );
   }
 }
