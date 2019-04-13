@@ -8,3 +8,8 @@
     height: 100vh;
     margin: 0;
 }
+
+.input {
+    width: 85vw;
+    margin: 1em;
+}
