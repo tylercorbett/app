@@ -1,3 +1,10 @@
 .title {
     color: red;
+    margin: 0;
+}
+
+.all {
+    background-color: blue;
+    height: 100vh;
+    margin: 0;
 }
