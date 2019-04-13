@@ -54,3 +54,18 @@
     background-color: gray;
     cursor: pointer;
 }
+.submit {
+    margin: 2em;
+    padding: .5em 1em .5em 1em;
+    border-radius: 2em;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+.submit:hover {
+    color: green;
+    background-color: transparent;
+}

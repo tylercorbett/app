@@ -72,6 +72,9 @@ export default function Form() {
                 <span className={styles.percentage}>100%</span>
             </div>
         </div>
+        <div className={styles.buttonContainer}>
+            <button className={styles.submit}>Submit</button>
+        </div>
        </div>
     )
 }
