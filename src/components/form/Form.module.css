@@ -1,15 +1,47 @@
-.title {
-    color: red;
-    margin: 0;
-}
-
 .all {
-    background-color: blue;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 4%;
     margin: 0;
 }
 
 .input {
     width: 85vw;
     margin: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.h3 {
+    display: inline;
+    margin: 2em;
+    font-size: 2em;
+}
+
+.icon {
+    font-size: 3em;
+    color: rgb(194, 194, 194);
+}
+
+.inputOption {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.upload {
+    font-size: 1em;
+    transition: .2s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+}
+.upload:hover {
+    background-color: gray;
+    cursor: pointer;
 }

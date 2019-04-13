@@ -4,22 +4,45 @@ import styles from './Form.module.css';
 export default function Form() {
     return(
        <div className={styles.all}>
-        <h2 className={styles.title}>Form</h2>
-        <div>
-            <h3>Garbage</h3>
-            <input type='range' defaultValue='0' className={styles.input} min='0' max='100'/>
+        <div className={styles.inputOption}>
+            <div className={styles.header}>
+                <span className={styles.icon} className={styles.icon}>
+                    <i class="fas fa-trash"></i>
+                </span>
+                <h3 className={styles.h3}>Garbage</h3>
+                <button className={styles.upload}>Upload Photo</button>
+            </div>
+            <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
         </div>
-        <div>
-            <h3>Recycling</h3>
-            <input type='range' defaultValue='0' className={styles.input} min='0' max='100'/>
+        <div className={styles.inputOption}>
+            <div className={styles.header}>
+                <span className={styles.icon} className={styles.icon}>
+                    <i class="fas fa-recycle"></i>
+                </span>
+                <h3 className={styles.h3}>Recycling</h3>
+                <button className={styles.upload}>Upload Photo</button>
+            </div>
+            <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
         </div>
-        <div>
-            <h3>Glass Recycling</h3>
-            <input type='range' defaultValue='0' className={styles.input} min='0' max='100'/>
+        <div className={styles.inputOption}>
+            <div className={styles.header}>
+                <span className={styles.icon} className={styles.icon}>
+                    <i class="fas fa-wine-bottle"></i>
+                </span>
+                <h3 className={styles.h3}>Glass Recycling</h3>
+                <button className={styles.upload}>Upload Photo</button>
+            </div>
+            <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
         </div>
-        <div>
-            <h3>Yard Waste/Compost</h3>
-            <input type='range' defaultValue='0' className={styles.input} min='0' max='100'/>
+        <div className={styles.inputOption}>
+            <div className={styles.header}>
+                <span className={styles.icon} className={styles.icon}>
+                    <i class="fas fa-apple-alt"></i>
+                </span>
+                <h3 className={styles.h3}>Yard Waste</h3>
+                <button className={styles.upload}>Upload Photo</button>
+            </div>
+            <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
         </div>
        </div>
     )
