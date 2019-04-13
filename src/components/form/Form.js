@@ -13,6 +13,13 @@ export default function Form() {
                 <button className={styles.upload}>Upload Photo</button>
             </div>
             <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
+            <div className={styles.label}>
+                <span className={styles.percentage}>0%</span>
+                <span className={styles.percentage}>25%</span>
+                <span className={styles.percentage}>50%</span>
+                <span className={styles.percentage}>75%</span>
+                <span className={styles.percentage}>100%</span>
+            </div>
         </div>
         <div className={styles.inputOption}>
             <div className={styles.header}>
@@ -23,6 +30,13 @@ export default function Form() {
                 <button className={styles.upload}>Upload Photo</button>
             </div>
             <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
+            <div className={styles.label}>
+                <span className={styles.percentage}>0%</span>
+                <span className={styles.percentage}>25%</span>
+                <span className={styles.percentage}>50%</span>
+                <span className={styles.percentage}>75%</span>
+                <span className={styles.percentage}>100%</span>
+            </div>
         </div>
         <div className={styles.inputOption}>
             <div className={styles.header}>
@@ -33,6 +47,13 @@ export default function Form() {
                 <button className={styles.upload}>Upload Photo</button>
             </div>
             <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
+            <div className={styles.label}>
+                <span className={styles.percentage}>0%</span>
+                <span className={styles.percentage}>25%</span>
+                <span className={styles.percentage}>50%</span>
+                <span className={styles.percentage}>75%</span>
+                <span className={styles.percentage}>100%</span>
+            </div>
         </div>
         <div className={styles.inputOption}>
             <div className={styles.header}>
@@ -43,6 +64,13 @@ export default function Form() {
                 <button className={styles.upload}>Upload Photo</button>
             </div>
             <input type='range' step='25' defaultValue='0' className={styles.input} min='0' max='100'/>
+            <div className={styles.label}>
+                <span className={styles.percentage}>0%</span>
+                <span className={styles.percentage}>25%</span>
+                <span className={styles.percentage}>50%</span>
+                <span className={styles.percentage}>75%</span>
+                <span className={styles.percentage}>100%</span>
+            </div>
         </div>
        </div>
     )

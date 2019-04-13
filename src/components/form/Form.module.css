@@ -11,6 +11,15 @@
     width: 85vw;
     margin: 1em;
 }
+.percentage {
+    font-weight: bold;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
 
 .header {
     display: flex;
