@@ -1,0 +1,79 @@
+.all {
+    height: 100%;
+    animation: fade-in forwards 1s ease-in;
+}
+.footprint {
+    transform: rotate(270deg);
+    font-size: 20em;
+    margin: .2em;
+}
+.footprintPortland {
+    transform: rotate(270deg);
+    font-size: 10em;
+    margin: .2em;
+}
+.footprintNeighborhood {
+    transform: rotate(270deg);
+    font-size: 15em;
+    margin: .2em;
+}
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(102, 190, 121);
+}
+.city {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(156, 218, 160);
+}
+.neighborhood {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(102, 190, 121);
+}
+.imgContainer {
+    width: 20vw;
+    margin: 2em;
+    margin-bottom: 1em;
+}
+.imgContainerPortland {
+    width: 22vw;
+    margin: 2em;
+    margin-bottom: 1em;
+}
+.imgContainerNeighborhood {
+    width: 20vw;
+    margin: 2em;
+    margin-bottom: 1em;
+}
+.img {
+    width: 100%;
+    border-radius: 20em;
+}
+.imgNeighborhood {
+    width: 100%;
+}
+.imgPortland {
+    width: 100%;
+}
+.h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.2em;
+    margin-top: .2em;
+}
+.figure {
+    position: relative;
+    right: 7%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@keyframes fade-in {
+    from {opacity: 0};
+    to {opacity: 1};
+}
